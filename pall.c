@@ -13,9 +13,9 @@ void pall(stack_t **head, unsigned int counter)
 	new = *head;
 	if (new == NULL)
 		return;
-	while(h)
+	while(new)
 	{
-		printf("%d\n", h->n);
-		h = h->n;
+		printf("%d\n", new->n);
+		new = new->n;
 	}
 }

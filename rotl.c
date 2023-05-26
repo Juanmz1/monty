@@ -9,7 +9,7 @@ void rotl(stack_t **head,  __attribute__((unused)) unsigned int counter)
 {
 	stack_t *new, *temp;
 	
-	new = *head
+	new = *head;
 	if (*head == NULL || (*head)->next == NULL)
 	{
 		return;
@@ -22,6 +22,6 @@ void rotl(stack_t **head,  __attribute__((unused)) unsigned int counter)
 	}
 	new->next = *head;
 	(*head)->next = NULL;
-	(*head)->prev = tmp;
+	(*head)->prev = new;
 	(*head) = temp;
 }

@@ -14,7 +14,7 @@ void push(stack_t **head, unsigned int counter)
 	{
 		if (bus.arg[0] == '-')
 			i++;
-		for (i = 0; bus.arg[j] != '\0'; i++)
+		for (i = 0; bus.arg[i] != '\0'; i++)
 			flag = 1;
 		if (flag == 1)
 		{

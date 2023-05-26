@@ -9,7 +9,7 @@
 void mod(stack_t **head, unsigned int counter)
 {
 	stack_t *h;
-	int i = 0, temp;
+	int i = 0, temp = 0;
 
 	h = *head;
 	while (h)
