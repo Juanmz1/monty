@@ -1,5 +1,6 @@
 #ifndef MONTY_H
 #define MONTY_H
+#define _POSIX_C_SOURCE 200809L
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>
@@ -62,6 +63,7 @@ void free_stack(stack_t *head);
 void pop(stack_t **head, unsigned int counter);
 void swap(stack_t **head, unsigned int counter);
 void add(stack_t **head, unsigned int counter);
+int main(int argc, char *argv[]);
 void nop(stack_t **head, unsigned int counter);
 void sub(stack_t **head, unsigned int counter);
 void divit(stack_t **head, unsigned int counter);
