@@ -1,11 +1,11 @@
 #include "monty.h"
 /**
-  *rotr - rotates the stack to the bottom
+  *my_rotr - rotates the stack to the bottom
   *@head: stack head
   *@counter: line_number
   *Return: no return
  */
-void rotr(stack_t **head, unsigned int counter)
+void my_rotr(stack_t **head, unsigned int counter)
 {
 	stack_t *new;
 	(void)counter;
